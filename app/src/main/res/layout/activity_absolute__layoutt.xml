@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".absolute_Layoutt"
+    android:background="@drawable/background"
+    android:id="@+id/layout"
+    >
+
+    <Button
+        android:id="@+id/preventButton"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_x="30dp"
+        android:layout_y="26dp"
+        android:background="@drawable/btnyellow"
+        android:text="How to prevent it ?"
+        android:textAllCaps="false"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/string1"
+        android:layout_width="342dp"
+        android:layout_height="117dp"
+        android:layout_margin="20dp"
+        android:layout_x="62dp"
+        android:layout_y="102dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:text="Wash your hands regularly for 20 seconds, with soap and water or alcohol-based hand rub"
+        android:textColor="#FFF000"
+        android:textSize="21dp" />
+
+    <TextView
+        android:id="@+id/string3"
+        android:layout_width="344dp"
+        android:layout_height="117dp"
+        android:layout_below="@id/virusButton"
+        android:layout_margin="20dp"
+        android:layout_x="62dp"
+        android:layout_y="286dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:text="Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze"
+        android:textColor="#FFF000"
+        android:textSize="21dp" />
+
+    <TextView
+        android:id="@+id/button3"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_x="51dp"
+        android:layout_y="310dp"
+        android:background="@drawable/btngreen" />
+
+    <TextView
+        android:id="@+id/string4"
+        android:layout_width="344dp"
+        android:layout_height="117dp"
+        android:layout_below="@id/virusButton"
+        android:layout_margin="20dp"
+        android:layout_x="62dp"
+        android:layout_y="375dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:text="Avoid close contact (1 meter or 3 feet) with people who are unwell"
+        android:textColor="#FFF000"
+        android:textSize="21dp" />
+
+    <TextView
+        android:id="@+id/string6"
+        android:layout_width="344dp"
+        android:layout_height="117dp"
+        android:layout_below="@id/virusButton"
+        android:layout_margin="20dp"
+        android:layout_x="62dp"
+        android:layout_y="534dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:text="Touch your eyes, nose, or mouth if your hands are not clean"
+        android:textColor="#FFF000"
+        android:textSize="21dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_x="279dp"
+        android:layout_y="631dp"
+        android:background="@drawable/btngreen"
+        android:gravity="center"
+        android:text="Next Page --> "
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/button6"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_x="51dp"
+        android:layout_y="559dp"
+        android:background="@drawable/btngreen" />
+
+    <TextView
+        android:id="@+id/string5"
+        android:layout_width="344dp"
+        android:layout_height="117dp"
+        android:layout_below="@id/virusButton"
+        android:layout_margin="20dp"
+        android:layout_x="62dp"
+        android:layout_y="442dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:text="Stay home and self-isolate from others in the household if you feel unwell"
+        android:textColor="#FFF000"
+        android:textSize="21dp" />
+
+    <TextView
+        android:id="@+id/button5"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_x="51dp"
+        android:layout_y="467dp"
+        android:background="@drawable/btngreen" />
+
+    <TextView
+        android:id="@+id/button4"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_x="51dp"
+        android:layout_y="400dp"
+        android:background="@drawable/btngreen" />
+
+    <TextView
+        android:id="@+id/button2"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_x="51dp"
+        android:layout_y="221dp"
+        android:background="@drawable/btngreen" />
+
+    <TextView
+        android:id="@+id/button1"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_x="49dp"
+        android:layout_y="126dp"
+        android:background="@drawable/btngreen" />
+
+    <TextView
+        android:id="@+id/string2"
+        android:layout_width="342dp"
+        android:layout_height="117dp"
+        android:layout_below="@id/virusButton"
+        android:layout_margin="20dp"
+        android:layout_x="62dp"
+        android:layout_y="197dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:text="Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze"
+        android:textColor="#FFF000"
+        android:textSize="21dp" />
+
+
+</AbsoluteLayout>

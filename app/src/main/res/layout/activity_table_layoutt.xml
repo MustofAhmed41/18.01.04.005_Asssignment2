@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableLayoutt"
+    android:padding="15dp"
+    android:background="@drawable/bgfortablelayout"
+
+
+    >
+
+
+    <TableRow
+        android:layout_marginTop="30dp"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"
+
+        >
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:text="World Wide Cases"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_span="3"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+
+
+
+    </TableRow>
+
+
+
+    <TableRow
+        android:id="@+id/HeaderRow"
+        android:layout_marginTop="30dp"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"
+
+        >
+
+        <TextView
+            android:text="Country Name"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="Total cases"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="Total Deaths"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+
+        android:layout_marginTop="20dp"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"
+
+        >
+
+        <TextView
+            android:text="China"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="81008"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="3255"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            />
+
+
+
+    </TableRow>
+
+
+
+    <TableRow
+
+        android:layout_marginTop="20dp"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"
+
+        >
+
+        <TextView
+            android:text="Italy"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="47021"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="4032"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            />
+
+
+
+    </TableRow>
+
+
+    <TableRow
+
+        android:layout_marginTop="20dp"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"
+
+        >
+
+        <TextView
+            android:text="Spain"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="25374"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="1378"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+
+        android:layout_marginTop="20dp"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"
+
+        >
+
+        <TextView
+            android:text="USA"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="21852"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="279"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            />
+
+
+
+    </TableRow>
+
+
+    <TableRow
+
+        android:layout_marginTop="20dp"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"
+
+        >
+
+        <TextView
+            android:text="Germany"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="21652"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="75"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            />
+
+
+
+    </TableRow>
+
+
+
+    <TableRow
+
+        android:layout_marginTop="20dp"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"
+
+        >
+
+        <TextView
+            android:text="Iran"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="20610"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="1556"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            />
+
+
+
+    </TableRow>
+
+
+    <TableRow
+
+        android:layout_marginTop="20dp"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:outlineSpotShadowColor="#FFFFFF"
+
+        >
+
+        <TextView
+            android:text="France"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="12612"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:text="450"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            />
+
+
+
+    </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+</TableLayout>

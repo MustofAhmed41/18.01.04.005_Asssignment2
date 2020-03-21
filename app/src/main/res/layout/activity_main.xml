@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/layout"
+    android:background="@drawable/background"
+    >
+
+
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btnyellow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="What is Corona Virus ?"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:id="@+id/virusButton"
+        />
+
+    <TextView
+        android:id="@+id/virusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF000"
+        android:text="Coronaviruses are a group of related viruses that cause diseases in mammals and birds. In humans, coronaviruses cause respiratory tract infections that can be mild, such as some cases of the common cold (among other possible causes, predominantly rhinoviruses), and others that can be lethal, such as SARS, MERS, and COVID-19. Common signs of infection include respiratory symptoms, fever, cough, shortness of breath and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death. "
+        android:layout_below="@id/virusButton"
+        android:textSize="21dp"
+        android:layout_margin="20dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+
+        />
+
+</RelativeLayout>

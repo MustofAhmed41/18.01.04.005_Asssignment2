@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameLayout">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bgforframelayout"
+        android:scaleType="fitXY"
+        android:id="@+id/first"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:src="@drawable/one"
+        android:scaleType="fitXY"
+        android:id="@+id/one"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/two"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:id="@+id/two"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/three"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:id="@+id/three"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/four"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:id="@+id/four"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/five"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:id="@+id/five"
+        />
+
+
+
+</FrameLayout>
